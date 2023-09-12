@@ -2,7 +2,7 @@
 public class Main {
     public static void main(String[]args){ // для передачи массива аргументов вот ниже
         System.out.println("N1"); // вывод в к.строку
-        System.out.println(convert(2));
+        System.out.println(convert(55));
         System.out.println(convert(3));
         System.out.println(convert(8));
 
