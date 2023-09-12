@@ -69,10 +69,10 @@ public class Main {
 
     public static String triangleType(int a, int b, int c) {
         if (a < b + c && c < a + b && b < a + c) //проверка на треуг. (кажд сторона меньше суммы двух других) (&& = и)
-            if (a == b && b == c) return ("Равност.");
-            else if (a == b || b == c || c == a) return ("Равнобедр."); // || это or
-            else return ("Разност.");
-        else return ("Не треуг.");
+            if (a == b && b == c) return ("Равносторонний");
+            else if (a == b || b == c || c == a) return ("Равнобедренный"); // || это or
+            else return ("Разносторонний");
+        else return ("Не треугольник");
 
     }
 
@@ -108,7 +108,3 @@ public class Main {
     public static int tables(int a, int b) {
         return ( b * 2 >= a) ?  (0):  ((a - b*2) / 2 + a % 2);} // % как и везде остаток
 }
-
-
-
-//ffjfjfjff
